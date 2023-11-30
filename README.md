@@ -6,6 +6,36 @@
 3.Visual Studioのインストール
 
 ## Gitの使い方 
+
+### ローカルのフォルダgithubに上げる方法
+#### github上で先にリポジトリを作成しておく
+  ```
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/richu72/AOJ_ITP1.git
+  git push -u origin main
+  ```
+
+### …or push an existing repository from the command line
+```
+  git remote add origin https://github.com/richu72/AOJ_ITP1.git
+  git branch -M main
+  git push -u origin main
+```
+### 別の環境で作業したいとき
+#### まだリポジトリフォルダが存在しないとき(別の環境での最初の作業)
+```
+  git clone https://github.com/richu72/AOJ_ITP1.git
+```
+#### 上記の作業でローカルリポジトリをすでに作成したあとファイルを変更した場合
+```
+  git add .
+  git commit -m "hogehoge"
+  git push -u origin main
+```
+
 ### [コマンド]
 #### 設定に対する確認や変更などの処理
 ```
