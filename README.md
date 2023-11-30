@@ -2,7 +2,7 @@
 
 ## 必要な準備
 1.githubアカウントの作成  
-2.[[git for windowsのインストール](https://prog-8.com/docs/git-env-win)]
+2.[[git for windowsのインストール](https://prog-8.com/docs/git-env-win)]  
 3.Visual Studioのインストール
 
 ## Gitの使い方 
