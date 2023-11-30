@@ -8,7 +8,7 @@
 ## Gitの使い方 
 
 ### ローカルのフォルダgithubに上げる方法
-#### github上で先にリポジトリを作成しておく
+github上で先にリポジトリを作成しておく
   ```
   git init
   git add README.md
