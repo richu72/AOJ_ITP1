@@ -7,9 +7,11 @@
 
 ## Gitの使い方 
 
-### ローカルのフォルダgithubに上げる方法
-github上で先にリポジトリを作成しておく
+### ローカル(PC上)のフォルダをgithubに上げる方法
+github上で先にリポジトリを作成しておく  
+以下をコマンドプロンプトで入力
   ```
+  cl {あげたいファイルの名前}
   git init
   git add README.md
   git commit -m "first commit"
@@ -17,26 +19,19 @@ github上で先にリポジトリを作成しておく
   git remote add origin https://github.com/richu72/AOJ_ITP1.git
   git push -u origin main
   ```
-
-### …or push an existing repository from the command line
-```
-  git remote add origin https://github.com/richu72/AOJ_ITP1.git
-  git branch -M main
-  git push -u origin main
-```
 ### 別の環境で作業したいとき
-#### まだリポジトリフォルダが存在しないとき(別の環境での最初の作業)
+#### まだリポジトリフォルダが存在しないときのダウンロード方法(別の環境での最初の作業)
 ```
   git clone https://github.com/richu72/AOJ_ITP1.git
 ```
 #### 上記の作業でローカルリポジトリをすでに作成したあとファイルを変更した場合
 ```
   git add .
-  git commit -m "hogehoge"
+  git commit -m "{変更ファイルのコメント}"
   git push -u origin main
 ```
 
-### [コマンド]
+## [コマンド]
 #### 設定に対する確認や変更などの処理
 ```
 git config {ファイル名}
@@ -79,9 +74,7 @@ git status
 ```
 git push origin main  
 ```
-### [[ダウンロード方法](http://www.gougle.com)]
-
-#### ※初めてローカルに落とすとき
+#### 初めてローカルに落とすとき
 ローカル環境でローカルリポジトリを作成。ターミナルで、任意の場所にディレクトリを作成し、作ったディレクトリに移動。
 ```
 git clone https://github.com/[ユーザー名]/[リポジトリ名].git
