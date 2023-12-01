@@ -11,7 +11,7 @@
 github上で先にリポジトリを作成しておく  
 以下をコマンドプロンプトで入力
   ```
-  cl {あげたいファイルの名前}
+  cd {あげたいファイルの名前}
   git init
   git add README.md
   git commit -m "first commit"
